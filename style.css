@@ -1,0 +1,102 @@
+body {
+  background-image: url("./babyyoda.jpg");
+  background-position: center top;
+  background-size: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+#title {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+}
+
+#color-palette {
+  text-align: center;
+  border-radius: 20px;
+}
+
+.selected {
+  border: 1px white solid;
+}
+
+.color {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  display: inline-block;
+  margin: 0;
+
+}
+
+.paletaDeCores {
+  border-radius: 20px;
+}
+
+.black {
+  background-color: black;
+}
+
+.cor2 {}
+
+.cor3 {}
+
+.cor4 {}
+
+.white {
+  background-color: white;
+}
+
+#pixel-board {
+  margin-bottom: 0;
+  height: auto;
+  text-align: center;
+  display: inline-block;
+  font-size: 0;
+
+}
+
+.pixel {
+  position: relative;
+  text-align: center;
+  height: 40px;
+  display: inline-block;
+  width: 40px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  margin: 0px;
+}
+
+.botton-clear {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#clear-board {
+  text-align: center;
+  font-size: large;
+  padding: 6px 10px;
+  background-color: rgb(109, 52, 64);
+  font-weight: bold;
+  color: white;
+}
+
+#board-size {
+  padding: 6px 6px;
+  text-align: end;
+}
+
+#generate-board {
+  padding: 6px 6px;
+  background-color: rgb(185,95,64);
+  color: white;
+  text-align: end;
+  font-weight: bold;
+}

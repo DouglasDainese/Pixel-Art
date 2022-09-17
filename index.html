@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Arte com Pixels!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Paleta de Cores</h1>
+    <section id="color-palette">
+        <div class="color black paletaDeCores"></div>
+        <div class="color cor2 paletaDeCores"></div>
+        <div class="color cor3 paletaDeCores"></div>
+        <div class="color cor4 paletaDeCores"></div>
+    </section>
+    <section class="botton-clear">
+        <button id="clear-board">Limpar</button>
+    </section>
+    <input type="number" min="1" step="1" name="entrada" id="board-size" placeholder="Altere as dimensões aqui!  ">
+       <button id="generate-board">Go!</button>
+       <br>
+       <br>
+    <div id="pixel-board">  
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
